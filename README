@@ -1,8 +1,8 @@
-# Linux Aether
+#Linux Aether
 
 Welcome to **Linux Aether**! Linux Aether is a cutting-edge, user-friendly Linux distribution designed to offer an exceptional computing experience. Whether you're a developer, designer, or a casual user, Linux Aether provides a powerful, elegant, and highly customizable environment tailored to your needs.
 
-## Table of Contents
+##Table of Contents
 
 1. [Introduction](#introduction)
 2. [Features](#features)
@@ -17,13 +17,13 @@ Welcome to **Linux Aether**! Linux Aether is a cutting-edge, user-friendly Linux
 11. [Contributing](#contributing)
 12. [License](#license)
 
-## Introduction
+##Introduction
 
 Linux Aether aims to deliver a superior and highly customizable Linux experience. It combines the stability and performance of the Linux kernel with an intuitive user interface and a plethora of pre-installed applications to meet the needs of all users.
 
-## Features
+#Features
 
-### Performance
+###Performance
 - **Optimized Kernel**: Linux Aether uses a highly optimized kernel to ensure top-notch performance.
 - **Resource Efficiency**: Lightweight applications and services to maximize system resources.
 
