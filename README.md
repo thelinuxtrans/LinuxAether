@@ -25,9 +25,9 @@ Linux Aether aims to deliver a superior and highly customizable Linux experience
 
 
 ### User Interface
-~~  - **Custom Desktop Environment**: There are many Desktop Environments (DE) to choose from, i.e Kde Plasma, GNOME etc. ~~ 
-~~  - **Custom Window Manager**: There are also a plethora of Window Managers (WM) to choose from, i.e i3-wm, DWM etc. ~~ 
-~~  - **Themes and Customization**: A variety of themes, icons, and extensions are avalible in most Desktop Environments to personalize your desktop. ~~ 
+- ~~**Custom Desktop Environment**: There are many Desktop Environments (DE) to choose from, i.e Kde Plasma, GNOME etc.~~
+- ~~**Custom Window Manager**: There are also a plethora of Window Managers (WM) to choose from, i.e i3-wm, DWM etc.~~
+- ~~**Themes and Customization**: A variety of themes, icons, and extensions are avalible in most Desktop Environments to personalize your desktop.~~ 
 
   This might come in the future 
 
