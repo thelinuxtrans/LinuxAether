@@ -32,7 +32,7 @@ Linux Aether aims to deliver a superior and highly customizable Linux experience
   This might come in the future 
 
 ### Software
-- **Software Repository**: Access to a vast repository of applications through the Aether Package Manager (APM).
+- **Software Repository**: Access to a vast repository of applications through the ~~Aether Package Manager (APM)~~ pacman Package Manager (pacman).
 
 ### Security
 - **Enhanced Security Features**: Linux Aether is designed to have possibility for any and all software to run, this also includes support for firewall, bluetooth etc.
