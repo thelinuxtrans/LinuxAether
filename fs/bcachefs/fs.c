@@ -177,6 +177,14 @@ static unsigned bch2_inode_hash(subvol_inum inum)
 	return jhash_3words(inum.subvol, inum.inum >> 32, inum.inum, JHASH_INITVAL);
 }
 
+struct bch_inode_info *__bch2_inode_hash_find(struct bch_fs *c, subvol_inum inum)
+{
+	return to_bch_ei(ilookup5_nowait(c->vfs_sb,
+					 bch2_inode_hash(inum),
+					 bch2_iget5_test,
+					 &inum));
+}
+
 static struct bch_inode_info *bch2_inode_insert(struct bch_fs *c, struct bch_inode_info *inode)
 {
 	subvol_inum inum = inode_inum(inode);
@@ -193,7 +201,7 @@ static struct bch_inode_info *bch2_inode_insert(struct bch_fs *c, struct bch_ino
 		 * only insert fully created inodes in the inode hash table. But
 		 * discard_new_inode() expects it to be set...
 		 */
-		inode->v.i_flags |= I_NEW;
+		inode->v.i_state |= I_NEW;
 		/*
 		 * We don't want bch2_evict_inode() to delete the inode on disk,
 		 * we just raced and had another inode in cache. Normally new
